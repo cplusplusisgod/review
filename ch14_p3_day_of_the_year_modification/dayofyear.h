@@ -5,7 +5,7 @@
 class DayOfYear {
 private:
     std::string Month;
-    int Dayz = 0; //day of the year is number of days in the month + the day number given
+    int Dayz; //day of the year is number of days in the month + the day number given
     //bool leap_year;
 
 public:
